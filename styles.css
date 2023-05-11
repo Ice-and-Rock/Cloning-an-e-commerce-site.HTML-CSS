@@ -1,0 +1,71 @@
+
+/* use a flexbox to venter the content */
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream-color: hsl(30, 38%, 92%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white-color: hsl(0, 0%, 100%);
+    --details-font: 'Montserrat', sans-serif;
+    --overview-font: 'Fraunces', serif;
+  }
+  
+
+.bodyContainer {
+    /* width: 375px; */
+}
+.mainBorder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    max-width: 375px;
+}
+
+.image {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: normal;
+  }
+
+.productType {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 50px;
+    font-size: 20px;
+}
+.docTitle {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.bodyText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%); 
+    color:hsl(30, 38%, 92%); 
+    padding: 14px 120px; 
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+    background-color: hsl(158, 36%, 47%);
+    color: hsl(30, 38%, 92%);
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.newPrice {
+    font-family: 'Fraunces', serif;
+    font-weight: 700; 
+    font-size: 60px;
+    color: hsl(158, 36%, 37%);
+}
